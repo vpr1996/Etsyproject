@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129309" started-at="2022-09-23T21:45:33Z" finished-at="2022-09-23T21:47:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129309" started-at="2022-09-23T21:45:33Z" finished-at="2022-09-23T21:47:43Z">
+      <class name="org.testNG.SignIn">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="launch" is-config="true" duration-ms="36581" started-at="2022-09-23T14:45:33Z" finished-at="2022-09-23T14:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="gettss()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="gettss" is-config="true" duration-ms="11852" started-at="2022-09-23T14:46:13Z" finished-at="2022-09-23T14:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettss -->
+        <test-method status="PASS" signature="invldlogins(java.lang.String, java.lang.String)[pri:1, instance:org.testNG.SignIn@55f3ddb1]" name="invldlogins" duration-ms="17915" started-at="2022-09-23T14:46:25Z" data-provider="invalid" finished-at="2022-09-23T14:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pk@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vrp@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invldlogins -->
+        <test-method status="PASS" signature="gettss()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="gettss" is-config="true" duration-ms="4108" started-at="2022-09-23T14:46:43Z" finished-at="2022-09-23T14:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettss -->
+        <test-method status="PASS" signature="invldlogins(java.lang.String, java.lang.String)[pri:1, instance:org.testNG.SignIn@55f3ddb1]" name="invldlogins" duration-ms="8191" started-at="2022-09-23T14:46:47Z" data-provider="invalid" finished-at="2022-09-23T14:46:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pks@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vpr@184221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invldlogins -->
+        <test-method status="PASS" signature="gettss()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="gettss" is-config="true" duration-ms="2907" started-at="2022-09-23T14:46:56Z" finished-at="2022-09-23T14:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettss -->
+        <test-method status="PASS" signature="invldlogin(java.lang.String, java.lang.String)[pri:2, instance:org.testNG.SignIn@55f3ddb1]" name="invldlogin" duration-ms="9392" started-at="2022-09-23T14:46:59Z" data-provider="validinvalid" finished-at="2022-09-23T14:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prakashrandy211996@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vrp@1232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invldlogin -->
+        <test-method status="PASS" signature="gettss()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="gettss" is-config="true" duration-ms="2879" started-at="2022-09-23T14:47:10Z" finished-at="2022-09-23T14:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettss -->
+        <test-method status="PASS" signature="invldloginn(java.lang.String, java.lang.String)[pri:3, instance:org.testNG.SignIn@55f3ddb1]" name="invldloginn" duration-ms="11716" started-at="2022-09-23T14:47:12Z" data-provider="valid" finished-at="2022-09-23T14:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prakashrandy211996@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vgk@184221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invldloginn -->
+        <test-method status="PASS" signature="cls()[pri:0, instance:org.testNG.SignIn@55f3ddb1]" name="cls" is-config="true" duration-ms="18291" started-at="2022-09-23T14:47:24Z" finished-at="2022-09-23T14:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cls -->
+      </class> <!-- org.testNG.SignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

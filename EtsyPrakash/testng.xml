@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="org.testNG.TransformClass"></listener>
+</listeners>
+<parameter name="helpseach" value="What's the Status of My Order?"></parameter>
+<parameter name="product" value="watch"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="org.testNG.MyProject1"/>
+      <class name="org.testNG.MyProject2"/>
+      <class name="org.testNG.MyProject3"/>
+      <class name="org.testNG.MyProject4"/>
+      <class name="org.testNG.MyProject5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
