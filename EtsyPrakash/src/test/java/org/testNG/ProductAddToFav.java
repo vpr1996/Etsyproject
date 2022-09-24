@@ -1,33 +1,32 @@
 package org.testNG;
 
-
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 import java.util.Set;
 
 import org.framework.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.pojoclass.PojoAddToFavourites;
 import org.pojoclass.PojoOrderSearch;
 import org.pojoclass.PojoProjectHomepage;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MyProject3 extends BaseClass {
-	
-	
+public class ProductAddToFav extends BaseClass {
+
 	@BeforeClass
 	private void launch() {
 		launchChrome();
@@ -40,58 +39,44 @@ public class MyProject3 extends BaseClass {
 		//quite();
 
 	}
-	@BeforeMethod
-   private void url() {
-	gett("https://www.etsy.com/");
 
-	
-}
-	
-	@Parameters("product")
+	@BeforeMethod
+	private void url() {
+		gett("https://www.etsy.com/");
+
+	}
+  
 	@Test(enabled=true)
-	private void order(String s) throws Throwable {
+	private void favorites() throws Throwable {
 		implicitwaits();
 		PojoProjectHomepage a = new PojoProjectHomepage();
-		sendkey(a.getSearchbox(),s);
+		sendkey(a.getSearchbox(),getdataxlsheet(8,0));
 		clicks(a.getSearchbtn());
 		PojoOrderSearch q = new PojoOrderSearch();
-		javascriptclick(q.getProduct());
+		clicks(q.getProduct());
 		String parent = driver.getWindowHandle();
 		Set<String> all = driver.getWindowHandles();
-		List<String> li= new ArrayList<>();
+		java.util.List<String> li= new ArrayList<>();
 		li.addAll(all);
 		String child = li.get(1);
 		windowshandlingId(child);
-		javascriptscrolltop(q.getAddtobasket());
-		clicks(q.getAddtobasket());
+		PojoAddToFavourites x = new PojoAddToFavourites();
+		Thread.sleep(3000);
+		clicks(x.getHeart());
+		String text = q.getAddtobasket().getText();
+	    SoftAssert sas = new SoftAssert();
+	    sas.assertTrue(text.contains("basket"));
 		windowshandlingId(parent);
-		clicks(a.getBasket());
+		clicks(a.getHomepage());
+		clicks(a.getFavourties());
+		sas.assertAll();
 		
 	}
 	
 	
+	
+	
+	
+	
+	
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-

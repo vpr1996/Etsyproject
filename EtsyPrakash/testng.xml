@@ -8,11 +8,12 @@
 <parameter name="product" value="watch"></parameter>
   <test name="Test">
     <classes>
-      <class name="org.testNG.MyProject1"/>
-      <class name="org.testNG.MyProject2"/>
-      <class name="org.testNG.MyProject3"/>
-      <class name="org.testNG.MyProject4"/>
-      <class name="org.testNG.MyProject5"/>
+      <class name="org.testNG.SignIn"/>
+      <class name="org.testNG.HeaderProductClick"/>
+      <class name="org.testNG.ProductAddToBasket"/>
+      <class name="org.testNG.ProductAddToFav"/>
+      <class name="org.testNG.FooterTesting"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

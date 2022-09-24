@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\prakash\AppData\Local\Temp\testng-eclipse-302862168\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\prakash\git\Etsyproject\EtsyPrakash\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,36 +91,129 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">19 methods, 1 failed,  4 skipped,  14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc1jewellery">tc1jewellery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc1jewellery">tc1jewellery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc1jewellery">tc1jewellery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc1jewellery">tc1jewellery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc4wedding">tc4wedding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testNG.SignIn" hash-for-method="invldlogin(prakashrandy211996@gmail.com, vrp@1232)">invldlogin(prakashrandy211996@gmail.com, vrp@1232)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.ProductAddToFav" hash-for-method="favorites">favorites</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testNG.SignIn" hash-for-method="invldloginn(prakashrandy211996@gmail.com, vgk@184221)">invldloginn(prakashrandy211996@gmail.com, vgk@184221)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.SignIn" hash-for-method="invldlogin(prakashrandy211996@gmail.com, vrp@1232)">invldlogin(prakashrandy211996@gmail.com, vrp@1232)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testNG.SignIn" hash-for-method="invldlogins(pks@123, vpr@184221)">invldlogins(pks@123, vpr@184221)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.SignIn" hash-for-method="invldloginn(prakashrandy211996@gmail.com, vgk@184221)">invldloginn(prakashrandy211996@gmail.com, vgk@184221)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.testNG.SignIn" hash-for-method="invldlogins(pk@123, vrp@123)">invldlogins(pk@123, vrp@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.SignIn" hash-for-method="invldlogins(pk@123, vrp@123)">invldlogins(pk@123, vrp@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.SignIn" hash-for-method="invldlogins(pks@123, vpr@184221)">invldlogins(pks@123, vpr@184221)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.ProductAddToBasket" hash-for-method="order(watch)">order(watch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.FooterTesting" hash-for-method="tc1">tc1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.FooterTesting" hash-for-method="tc2(What&#039;s the Status of My Order?)">tc2(What's the Status of My Order?)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc2clothing">tc2clothing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc3home">tc3home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc4wedding">tc4wedding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc5toysandent">tc5toysandent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc6art">tc6art</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.testNG.HeaderProductClick" hash-for-method="tc7gifts">tc7gifts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,8 +224,179 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.testNG.HeaderProductClick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1jewellery">
+                  </a> <!-- tc1jewellery -->
+                  <span class="method-name">tc1jewellery</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;catnav-l4-11250&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAKASH-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220915150737, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 4504, moz:profile: C:\Users\prakash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f31cec4c-0dcf-4f62-bd70-a1c53ef3b8bd
+*** Element info: {Using=xpath, value=//a[@id=&apos;catnav-l4-11250&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.framework.BaseClass.clicks(BaseClass.java:96)
+	at org.testNG.HeaderProductClick.tc1jewellery(HeaderProductClick.java:51)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.testNG.HeaderProductClick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1jewellery">
+                  </a> <!-- tc1jewellery -->
+                  <span class="method-name">tc1jewellery</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;catnav-l4-11250&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAKASH-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220915150737, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 4504, moz:profile: C:\Users\prakash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f31cec4c-0dcf-4f62-bd70-a1c53ef3b8bd
+*** Element info: {Using=xpath, value=//a[@id=&apos;catnav-l4-11250&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.framework.BaseClass.clicks(BaseClass.java:96)
+	at org.testNG.HeaderProductClick.tc1jewellery(HeaderProductClick.java:51)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1jewellery">
+                  </a> <!-- tc1jewellery -->
+                  <span class="method-name">tc1jewellery</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;catnav-l4-11250&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAKASH-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220915150737, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 4504, moz:profile: C:\Users\prakash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f31cec4c-0dcf-4f62-bd70-a1c53ef3b8bd
+*** Element info: {Using=xpath, value=//a[@id=&apos;catnav-l4-11250&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.framework.BaseClass.clicks(BaseClass.java:96)
+	at org.testNG.HeaderProductClick.tc1jewellery(HeaderProductClick.java:51)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1jewellery">
+                  </a> <!-- tc1jewellery -->
+                  <span class="method-name">tc1jewellery</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;catnav-l4-11250&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAKASH-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220915150737, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 4504, moz:profile: C:\Users\prakash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f31cec4c-0dcf-4f62-bd70-a1c53ef3b8bd
+*** Element info: {Using=xpath, value=//a[@id=&apos;catnav-l4-11250&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.framework.BaseClass.clicks(BaseClass.java:96)
+	at org.testNG.HeaderProductClick.tc1jewellery(HeaderProductClick.java:51)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4wedding">
+                  </a> <!-- tc4wedding -->
+                  <span class="method-name">tc4wedding</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;catnav-l3-10985&quot; class=&quot;wt-display-block wt-text-black wt-text-link-no-underline &quot; href=&quot;/in-en/c/paper-and-party-supplies/party-supplies/party-decor?ref=catnav-10983&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAKASH-PC&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220915150737, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 4504, moz:profile: C:\Users\prakash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f31cec4c-0dcf-4f62-bd70-a1c53ef3b8bd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.framework.BaseClass.clicks(BaseClass.java:96)
+	at org.testNG.HeaderProductClick.tc4wedding(HeaderProductClick.java:88)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">org.testNG.SignIn</span>
@@ -156,116 +420,333 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="invldlogins(pks@123, vpr@184221)">
-                  </a> <!-- invldlogins(pks@123, vpr@184221) -->
-                  <span class="method-name">invldlogins</span>
-                  <span class="parameters">(pks@123, vpr@184221)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="invldlogins(pk@123, vrp@123)">
                   </a> <!-- invldlogins(pk@123, vrp@123) -->
                   <span class="method-name">invldlogins</span>
                   <span class="parameters">(pk@123, vrp@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invldlogins(pks@123, vpr@184221)">
+                  </a> <!-- invldlogins(pks@123, vpr@184221) -->
+                  <span class="method-name">invldlogins</span>
+                  <span class="parameters">(pks@123, vpr@184221)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testNG.ProductAddToBasket</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="order(watch)">
+                  </a> <!-- order(watch) -->
+                  <span class="method-name">order</span>
+                  <span class="parameters">(watch)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testNG.ProductAddToFav</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="favorites">
+                  </a> <!-- favorites -->
+                  <span class="method-name">favorites</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testNG.FooterTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1">
+                  </a> <!-- tc1 -->
+                  <span class="method-name">tc1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2(What&#039;s the Status of My Order?)">
+                  </a> <!-- tc2(What's the Status of My Order?) -->
+                  <span class="method-name">tc2</span>
+                  <span class="parameters">(What's the Status of My Order?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.testNG.HeaderProductClick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2clothing">
+                  </a> <!-- tc2clothing -->
+                  <span class="method-name">tc2clothing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc3home">
+                  </a> <!-- tc3home -->
+                  <span class="method-name">tc3home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4wedding">
+                  </a> <!-- tc4wedding -->
+                  <span class="method-name">tc4wedding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc5toysandent">
+                  </a> <!-- tc5toysandent -->
+                  <span class="method-name">tc5toysandent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc6art">
+                  </a> <!-- tc6art -->
+                  <span class="method-name">tc6art</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc7gifts">
+                  </a> <!-- tc7gifts -->
+                  <span class="method-name">tc7gifts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\prakash\AppData\Local\Temp\testng-eclipse-302862168\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\prakash\git\Etsyproject\EtsyPrakash\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;product&quot; value=&quot;watch&quot;/&gt;
+  &lt;parameter name=&quot;helpseach&quot; value=&quot;What&amp;#039;s the Status of My Order?&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.testNG.TransformClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.testNG.SignIn&quot;/&gt;
+      &lt;class name=&quot;org.testNG.HeaderProductClick&quot;/&gt;
+      &lt;class name=&quot;org.testNG.ProductAddToBasket&quot;/&gt;
+      &lt;class name=&quot;org.testNG.ProductAddToFav&quot;/&gt;
+      &lt;class name=&quot;org.testNG.FooterTesting&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.testNG.ProductAddToBasket&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;url&quot;/&gt;
+          &lt;include name=&quot;qts&quot;/&gt;
+          &lt;include name=&quot;launch&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.testNG.ProductAddToBasket --&gt;
+      &lt;class name=&quot;org.testNG.SignIn&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;gettss&quot;/&gt;
+          &lt;include name=&quot;launch&quot;/&gt;
+          &lt;include name=&quot;cls&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.testNG.SignIn --&gt;
+      &lt;class name=&quot;org.testNG.FooterTesting&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;cls&quot;/&gt;
+          &lt;include name=&quot;gettss&quot;/&gt;
+          &lt;include name=&quot;launch&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.testNG.FooterTesting --&gt;
+      &lt;class name=&quot;org.testNG.ProductAddToFav&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;qts&quot;/&gt;
+          &lt;include name=&quot;url&quot;/&gt;
+          &lt;include name=&quot;launch&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.testNG.ProductAddToFav --&gt;
+      &lt;class name=&quot;org.testNG.HeaderProductClick&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launch&quot;/&gt;
+          &lt;include name=&quot;cls&quot;/&gt;
+          &lt;include name=&quot;tc1jewellery&quot;/&gt;
+          &lt;include name=&quot;tc4wedding&quot;/&gt;
+          &lt;include name=&quot;gettss&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.testNG.HeaderProductClick --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test(failed) (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(19);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invldlogins')
-data.setCell(0, 2, 'org.testNG.SignIn')
-data.setCell(0, 3, 17915);
+data.setCell(0, 1, 'favorites')
+data.setCell(0, 2, 'org.testNG.ProductAddToFav')
+data.setCell(0, 3, 42173);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invldloginn')
-data.setCell(1, 2, 'org.testNG.SignIn')
-data.setCell(1, 3, 11716);
+data.setCell(1, 1, 'order')
+data.setCell(1, 2, 'org.testNG.ProductAddToBasket')
+data.setCell(1, 3, 22063);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'invldlogin')
-data.setCell(2, 2, 'org.testNG.SignIn')
-data.setCell(2, 3, 9392);
+data.setCell(2, 1, 'tc1jewellery')
+data.setCell(2, 2, 'org.testNG.HeaderProductClick')
+data.setCell(2, 3, 21825);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'invldlogins')
-data.setCell(3, 2, 'org.testNG.SignIn')
-data.setCell(3, 3, 8191);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(3, 1, 'tc1jewellery')
+data.setCell(3, 2, 'org.testNG.HeaderProductClick')
+data.setCell(3, 3, 21556);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc1jewellery')
+data.setCell(4, 2, 'org.testNG.HeaderProductClick')
+data.setCell(4, 3, 20836);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc1jewellery')
+data.setCell(5, 2, 'org.testNG.HeaderProductClick')
+data.setCell(5, 3, 20378);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc2')
+data.setCell(6, 2, 'org.testNG.FooterTesting')
+data.setCell(6, 3, 19607);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc1')
+data.setCell(7, 2, 'org.testNG.FooterTesting')
+data.setCell(7, 3, 16595);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invldlogins')
+data.setCell(8, 2, 'org.testNG.SignIn')
+data.setCell(8, 3, 16160);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invldloginn')
+data.setCell(9, 2, 'org.testNG.SignIn')
+data.setCell(9, 3, 11807);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc2clothing')
+data.setCell(10, 2, 'org.testNG.HeaderProductClick')
+data.setCell(10, 3, 9513);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invldlogins')
+data.setCell(11, 2, 'org.testNG.SignIn')
+data.setCell(11, 3, 7329);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invldlogin')
+data.setCell(12, 2, 'org.testNG.SignIn')
+data.setCell(12, 3, 6025);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc4wedding')
+data.setCell(13, 2, 'org.testNG.HeaderProductClick')
+data.setCell(13, 3, 5129);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc6art')
+data.setCell(14, 2, 'org.testNG.HeaderProductClick')
+data.setCell(14, 3, 5109);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc7gifts')
+data.setCell(15, 2, 'org.testNG.HeaderProductClick')
+data.setCell(15, 3, 4910);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc5toysandent')
+data.setCell(16, 2, 'org.testNG.HeaderProductClick')
+data.setCell(16, 3, 3158);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc3home')
+data.setCell(17, 2, 'org.testNG.HeaderProductClick')
+data.setCell(17, 3, 2086);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc4wedding')
+data.setCell(18, 2, 'org.testNG.HeaderProductClick')
+data.setCell(18, 3, 1243);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -278,39 +759,205 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">gettss</span>
-                <span class="method-start">40082 ms</span>
+                <span class="method-start">26068 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invldlogins(pk@123, vrp@123)</span>
-                <span class="method-start">51936 ms</span>
+                <span class="method-start">32906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettss</span>
-                <span class="method-start">69898 ms</span>
+                <span class="method-start">49068 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invldlogins(pks@123, vpr@184221)</span>
-                <span class="method-start">74006 ms</span>
+                <span class="method-start">52874 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettss</span>
-                <span class="method-start">82526 ms</span>
+                <span class="method-start">60407 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invldlogin(prakashrandy211996@gmail.com, vrp@1232)</span>
-                <span class="method-start">85433 ms</span>
+                <span class="method-start">63068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">gettss</span>
-                <span class="method-start">96105 ms</span>
+                <span class="method-start">69717 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invldloginn(prakashrandy211996@gmail.com, vgk@184221)</span>
-                <span class="method-start">98984 ms</span>
+                <span class="method-start">72338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">cls</span>
-                <span class="method-start">110726 ms</span>
+                <span class="method-start">84178 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testNG.HeaderProductClick</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch</span>
+                <span class="method-start">87665 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">100514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1jewellery</span>
+                <span class="method-start">106007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">127581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1jewellery</span>
+                <span class="method-start">130556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">151392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1jewellery</span>
+                <span class="method-start">158712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">179095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc1jewellery</span>
+                <span class="method-start">181824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">203699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc2clothing</span>
+                <span class="method-start">206260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">215817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc3home</span>
+                <span class="method-start">217793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">219895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc4wedding</span>
+                <span class="method-start">221349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">222596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc4wedding</span>
+                <span class="method-start">224159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">229290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc5toysandent</span>
+                <span class="method-start">233508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">236669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc6art</span>
+                <span class="method-start">238440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">243563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc7gifts</span>
+                <span class="method-start">247821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cls</span>
+                <span class="method-start">252741 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testNG.ProductAddToBasket</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch</span>
+                <span class="method-start">260394 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">url</span>
+                <span class="method-start">281502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">order(watch)</span>
+                <span class="method-start">286555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">qts</span>
+                <span class="method-start">308619 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testNG.ProductAddToFav</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch</span>
+                <span class="method-start">308650 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">url</span>
+                <span class="method-start">330882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">favorites</span>
+                <span class="method-start">340748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">qts</span>
+                <span class="method-start">382960 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.testNG.FooterTesting</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch</span>
+                <span class="method-start">383001 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">415855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1</span>
+                <span class="method-start">421548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gettss</span>
+                <span class="method-start">438226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc2(What's the Status of My Order?)</span>
+                <span class="method-start">441181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cls</span>
+                <span class="method-start">460791 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

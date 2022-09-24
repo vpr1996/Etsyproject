@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class MyProject5 extends BaseClass {
+public class FooterTesting extends BaseClass {
 	
 	@BeforeClass
 	private void launch() {

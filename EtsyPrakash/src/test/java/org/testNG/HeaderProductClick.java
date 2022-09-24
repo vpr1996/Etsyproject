@@ -1,24 +1,20 @@
 package org.testNG;
 
-import java.io.IOException;
-import java.util.Date;
+
 
 import org.framework.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 import org.pojoclass.PojoProjectHomepage;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import org.testng.xml.LaunchSuite;
 
-public class MyProject2 extends BaseClass {
+import org.testng.annotations.Test;
+
+
+public class HeaderProductClick extends BaseClass {
 
 
 
@@ -53,11 +49,7 @@ public class MyProject2 extends BaseClass {
 		PojoProjectHomepage a = new PojoProjectHomepage();
 		movetoelements(a.getJewellandaccess());
 		clicks(a.getSunhats());
-		String title = driver.getTitle();
-		Assert.assertTrue(title.contains("Sun"));
-	
-	
-	
+		
 	}
 	
 	@Test(priority=2,enabled=true)
@@ -81,7 +73,6 @@ public class MyProject2 extends BaseClass {
 		PojoProjectHomepage a = new PojoProjectHomepage();
 		movetoelements(a.getHomeandliv());
 		javascriptclick(a.getClocks());
-		String title = driver.getTitle();
 	
 	}
 	
